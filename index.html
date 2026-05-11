@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多技能人员灵活排班：文献综述与交互概览 | 冯帅博</title>
+    <title>Literature Review: Multi-skilled Personnel Scheduling | Shuaibo Feng</title>
     <style>
-        /* 整体风格，模仿学术专业感 */
+        /* Academic style – consistent with original */
         * {
             margin: 0;
             padding: 0;
@@ -25,9 +25,7 @@
             border-radius: 24px;
             box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
             overflow: hidden;
-            transition: all 0.2s;
         }
-        /* 页眉区 */
         .header {
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             color: white;
@@ -63,7 +61,6 @@
             font-size: 0.8rem;
             font-weight: 500;
         }
-        /* 分类导航卡片 */
         .nav-themes {
             display: flex;
             gap: 1rem;
@@ -81,13 +78,8 @@
             color: #1e293b;
             box-shadow: 0 1px 2px rgba(0,0,0,0.05);
             transition: all 0.2s;
-            cursor: pointer;
+            cursor: default;
             border: 1px solid #e2e8f0;
-        }
-        .theme-pill:hover {
-            border-color: #3b82f6;
-            color: #3b82f6;
-            transform: translateY(-1px);
         }
         .stats-bar {
             display: flex;
@@ -99,7 +91,6 @@
             font-size: 0.85rem;
             color: #334155;
         }
-        /* 表格容器 — 响应式滚动 */
         .table-wrapper {
             overflow-x: auto;
             margin: 1.5rem 2rem;
@@ -187,108 +178,108 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>📄 多技能人员灵活排班 · 文献综述</h1>
+        <h1>📄 Multi‑Skilled Personnel Scheduling with Flexible Shifts: A Literature Review</h1>
         <div class="sub">
-            <span>👤 冯帅博 (Shuaibo Feng) ｜ 学号: 20808360</span>
-            <span>📚 COMP4126 研究方法 | 2026</span>
+            <span>👤 Shuaibo Feng (ID: 20808360)</span>
+            <span>📚 COMP4126 Research Methods | 2026</span>
         </div>
         <div class="badge-group">
-            <span class="badge">✅ 核心文献 10篇 (完整)</span>
-            <span class="badge">📊 分类主题: Exact / EA / ML</span>
-            <span class="badge">🌐 交互式分类表 (替代SurVis)</span>
+            <span class="badge">✅ 10 core papers (complete set)</span>
+            <span class="badge">📊 Thematic groups: Exact / Evolutionary / ML</span>
+            <span class="badge">🌐 Interactive classification (SurVis alternative)</span>
         </div>
     </div>
     <div class="nav-themes">
-        <span class="theme-pill">🔬 主题 A : 精确/MILP模型</span>
-        <span class="theme-pill">🧬 主题 B : 进化/模因算法</span>
-        <span class="theme-pill">🤖 主题 C : 机器学习增强排班</span>
-        <span class="theme-pill">⚖️ 实践/伦理参照</span>
+        <span class="theme-pill">🔬 Theme A : Exact / MILP models</span>
+        <span class="theme-pill">🧬 Theme B : Evolutionary / Memetic algorithms</span>
+        <span class="theme-pill">🤖 Theme C : Machine learning enhanced scheduling</span>
+        <span class="theme-pill">⚖️ Practical & ethical context</span>
     </div>
     <div class="stats-bar">
-        <span>📅 年份跨度: 2004 – 2025</span>
-        <span>🏷️ 可筛选 | 🔍 Ctrl+F 即时检索</span>
-        <span>📌 DOI / URL 全部可访问</span>
+        <span>📅 Year span: 2004 – 2025</span>
+        <span>🏷️ Filterable | 🔍 Ctrl+F instant search</span>
+        <span>📌 DOI / URLs all accessible</span>
     </div>
 
-    <!-- ================= 主表 = 全部10篇文献 ================= -->
+    <!-- Main table: all 10 papers -->
     <div class="table-wrapper">
         <table>
             <thead>
                 <tr>
-                    <th>主题分组</th><th>文献 (Citation) & 核心方法</th><th>年份</th><th>DOI / 链接</th>
+                    <th>Thematic Group</th><th>Citation & Core Method</th><th>Year</th><th>DOI / Link</th>
                 </tr>
             </thead>
             <tbody>
                 <!-- 1. Van den Bergh 2013 (A) -->
                 <tr>
-                    <td><span class="tag-method">📐 精准/MILP</span></td>
-                    <td><strong>Van den Bergh et al.</strong> (2013). Personnel scheduling: A literature review. <em>EJOR</em>.<br>🔹 综述+分类框架，奠定personnel scheduling基础。</td>
+                    <td><span class="tag-method">📐 Exact/MILP</span></td>
+                    <td><strong>Van den Bergh et al.</strong> (2013). Personnel scheduling: A literature review. <em>EJOR</em>.<br>🔹 Survey + classification framework, foundation of personnel scheduling.</td>
                     <td>2013</td>
                     <td><a class="doi-link" href="https://doi.org/10.1016/j.ejor.2012.11.029" target="_blank">10.1016/j.ejor.2012.11.029</a></td>
                 </tr>
                 <!-- 2. Burke 2004 (A) -->
                 <tr>
-                    <td><span class="tag-method">📐 精准/MILP</span></td>
-                    <td><strong>Burke et al.</strong> (2004). The state of the art of nurse rostering. <em>J Scheduling</em>.<br>🔹 固定班次 MILP 综述，护士排班里程碑。</td>
+                    <td><span class="tag-method">📐 Exact/MILP</span></td>
+                    <td><strong>Burke et al.</strong> (2004). The state of the art of nurse rostering. <em>J Scheduling</em>.<br>🔹 MILP review, fixed shifts, nurse rostering milestone.</td>
                     <td>2004</td>
                     <td><a class="doi-link" href="https://doi.org/10.1023/B:JOSH.0000046076.75950.47" target="_blank">10.1023/B:JOSH.0000046076.75950.47</a></td>
                 </tr>
                 <!-- 3. Topaloglu 2009 (A) -->
                 <tr>
-                    <td><span class="tag-method">📐 精准/MILP</span></td>
-                    <td><strong>Topaloglu S.</strong> (2009). Multi‑objective programming for emergency medicine residents. <em>J Med Syst</em>.<br>🔹 多目标MILP，兼顾公平与约束。</td>
+                    <td><span class="tag-method">📐 Exact/MILP</span></td>
+                    <td><strong>Topaloglu S.</strong> (2009). Multi‑objective programming for emergency medicine residents. <em>J Med Syst</em>.<br>🔹 Multi‑objective MILP, fairness & constraints.</td>
                     <td>2009</td>
                     <td><a class="doi-link" href="https://doi.org/10.1007/s10916-008-9207-2" target="_blank">10.1007/s10916-008-9207-2</a></td>
                 </tr>
 
-                <!-- 4. Xue 2025 (B: 模因+决策树) -->
+                <!-- 4. Xue 2025 (B: memetic + decision tree) -->
                 <tr>
-                    <td><span class="tag-method">🧬 进化/模因算法</span></td>
-                    <td><strong>Xue, Bai, Jin, Cui</strong> (2025). Evolutionary method with shift pattern learning. <em>Swarm Evol Comput</em>.<br>🔹 MA+决策树，学习历史偏好，真实零售数据 + 31%员工效率提升。</td>
+                    <td><span class="tag-method">🧬 Evolutionary/Memetic</span></td>
+                    <td><strong>Xue, Bai, Jin, Cui</strong> (2025). Evolutionary method with shift pattern learning. <em>Swarm Evol Comput</em>.<br>🔹 MA + decision tree, learns historical preferences, real retail data + 31% employee efficiency.</td>
                     <td>2025</td>
                     <td><a class="doi-link" href="https://doi.org/10.1016/j.swevo.2025.102160" target="_blank">10.1016/j.swevo.2025.102160</a></td>
                 </tr>
                 <!-- 5. Aickelin 2004 (B) -->
                 <tr>
-                    <td><span class="tag-method">🧬 进化/模因算法</span></td>
-                    <td><strong>Aickelin & Dowsland</strong> (2004). Indirect genetic algorithm for nurse scheduling. <em>Comput Oper Res</em>.<br>🔹 间接编码遗传算法，降低搜索空间。</td>
+                    <td><span class="tag-method">🧬 Evolutionary/Memetic</span></td>
+                    <td><strong>Aickelin & Dowsland</strong> (2004). Indirect genetic algorithm for nurse scheduling. <em>Comput Oper Res</em>.<br>🔹 Indirect encoding GA, reduces search space.</td>
                     <td>2004</td>
                     <td><a class="doi-link" href="https://doi.org/10.1016/S0305-0548(03)00034-0" target="_blank">10.1016/S0305-0548(03)00034-0</a></td>
                 </tr>
                 <!-- 6. Othman 2020 (B) -->
                 <tr>
-                    <td><span class="tag-method">🧬 进化/模因算法</span></td>
-                    <td><strong>Othman & Bhuiyan</strong> (2020). Memetic algorithm for multi-skilled project scheduling. <em>Swarm Evol Comput</em>.<br>🔹 模因算法 + 局部搜索，资源约束项目管理。</td>
+                    <td><span class="tag-method">🧬 Evolutionary/Memetic</span></td>
+                    <td><strong>Othman & Bhuiyan</strong> (2020). Memetic algorithm for multi-skilled project scheduling. <em>Swarm Evol Comput</em>.<br>🔹 Memetic algorithm + local search, resource‑constrained projects.</td>
                     <td>2020</td>
                     <td><a class="doi-link" href="https://doi.org/10.1016/j.swevo.2020.100745" target="_blank">10.1016/j.swevo.2020.100745</a></td>
                 </tr>
                 <!-- 7. Zhang 2019 (B) -->
                 <tr>
-                    <td><span class="tag-method">🧬 进化/模因算法</span></td>
-                    <td><strong>Zhang & Lau</strong> (2019). Cooperative coevolutionary algorithm for workforce scheduling. <em>IEEE TEVC</em>.<br>🔹 协同演化，分解工人-任务子种群。</td>
+                    <td><span class="tag-method">🧬 Evolutionary/Memetic</span></td>
+                    <td><strong>Zhang & Lau</strong> (2019). Cooperative coevolutionary algorithm for workforce scheduling. <em>IEEE TEVC</em>.<br>🔹 Cooperative coevolution, worker-task subpopulations.</td>
                     <td>2019</td>
                     <td><a class="doi-link" href="https://doi.org/10.1109/TEVC.2018.2871925" target="_blank">10.1109/TEVC.2018.2871925</a></td>
                 </tr>
 
                 <!-- 8. Guedria 2019 (C) -->
                 <tr>
-                    <td><span class="tag-method">🤖 机器学习增强</span></td>
-                    <td><strong>Guedria, Bouzidi, Haddar</strong> (2019). Reinforcement learning for dynamic multi‑skilled scheduling. <em>Procedia Comput Sci</em>.<br>🔹 Q-learning 动态适应需求变化。</td>
+                    <td><span class="tag-method">🤖 ML‑enhanced</span></td>
+                    <td><strong>Guedria, Bouzidi, Haddar</strong> (2019). Reinforcement learning for dynamic multi‑skilled scheduling. <em>Procedia Comput Sci</em>.<br>🔹 Q‑learning dynamically adapts to demand changes.</td>
                     <td>2019</td>
                     <td><a class="doi-link" href="https://doi.org/10.1016/j.procs.2019.09.378" target="_blank">10.1016/j.procs.2019.09.378</a></td>
                 </tr>
 
-                <!-- 9. Edmunds 2012 (实践) -->
+                <!-- 9. Edmunds 2012 (practice) -->
                 <tr>
-                    <td><span class="tag-method">⚖️ 实践/伦理</span></td>
-                    <td><strong>Edmunds, Coyle, O'Connor</strong> (2012). Why scheduling algorithms fail in practice. <em>Winter Simulation Conf.</em><br>🔹 揭示研究-应用鸿沟，仅17%论文落地。</td>
+                    <td><span class="tag-method">⚖️ Practical/Ethical</span></td>
+                    <td><strong>Edmunds, Coyle, O'Connor</strong> (2012). Why scheduling algorithms fail in practice. <em>Winter Simulation Conf.</em><br>🔹 Research‑application gap, only 17% of papers deployed.</td>
                     <td>2012</td>
                     <td><a class="doi-link" href="https://doi.org/10.1109/WSC.2012.6465062" target="_blank">10.1109/WSC.2012.6465062</a></td>
                 </tr>
-                <!-- 10. Akgündüz 2021 (伦理) -->
+                <!-- 10. Akgündüz 2021 (ethics) -->
                 <tr>
-                    <td><span class="tag-method">⚖️ 实践/伦理</span></td>
-                    <td><strong>Akgündüz & Andriessen</strong> (2021). Algorithmic bias in shift scheduling: A systematic review. <em>J Bus Ethics</em>.<br>🔹 算法公平性、偏见来源与缓解策略。</td>
+                    <td><span class="tag-method">⚖️ Practical/Ethical</span></td>
+                    <td><strong>Akgündüz & Andriessen</strong> (2021). Algorithmic bias in shift scheduling: A systematic review. <em>J Bus Ethics</em>.<br>🔹 Algorithmic fairness, sources of bias and mitigation.</td>
                     <td>2021</td>
                     <td><a class="doi-link" href="https://doi.org/10.1007/s10551-020-04562-8" target="_blank">10.1007/s10551-020-04562-8</a></td>
                 </tr>
@@ -296,22 +287,22 @@
         </table>
     </div>
 
-    <!-- classification summary 完全符合 SurVis 分类逻辑 -->
+    <!-- Classification summary (SurVis alternative) -->
     <div style="padding: 0 2rem 0.5rem 2rem; font-size: 0.9rem;">
-        <h3 style="color:#0f172a; margin-bottom: 0.5rem;">📌 分类体系 (替代 SurVis 交互式可视化)</h3>
-        <p style="margin-bottom: 0.75rem;">🔹 <strong>主题 A (精确/MILP)</strong> — 奠定模型基础，但可扩展性受限。<br>
-        🔹 <strong>主题 B (进化与模因算法)</strong> — 主导大规模灵活排班，代表前沿混合策略。<br>
-        🔹 <strong>主题 C (机器学习增强)</strong> — 从历史数据中学习偏好，弥合研究-应用鸿沟（Xue 2025 为标杆）。<br>
-        🔹 <strong>实践/伦理参照</strong> — 算法落地阻力及公平性挑战。</p>
-        <p>✅ 总计 <strong>10 篇核心同行评审论文</strong>，均已包含 DOI 并可访问。浏览器内置搜索 (Ctrl+F) 支持按方法、作者或主题词快速定位。</p>
+        <h3 style="color:#0f172a; margin-bottom: 0.5rem;">📌 Classification Scheme (SurVis interactive alternative)</h3>
+        <p style="margin-bottom: 0.75rem;">🔹 <strong>Theme A (Exact/MILP)</strong> — Foundational models but limited scalability.<br>
+        🔹 <strong>Theme B (Evolutionary & Memetic)</strong> — Dominant for large‑scale flexible scheduling; state‑of‑the‑art hybrid strategies.<br>
+        🔹 <strong>Theme C (Machine Learning enhanced)</strong> — Learning from historical data to bridge research‑application gap (Xue 2025 as benchmark).<br>
+        🔹 <strong>Practical/Ethical references</strong> — Barriers to deployment and fairness challenges.</p>
+        <p>✅ Total <strong>10 peer‑reviewed core papers</strong> with DOIs and live links. In‑page search (Ctrl+F) allows instant filtering by author, method, or keyword.</p>
     </div>
     <div class="url-bar">
-        <span>🌍 交互式分类页面 (SurVis 替代实现) · 永久链接: </span>
+        <span>🌍 Interactive classification page (SurVis alternative) · permanent link: </span>
         <a href="https://ShuaiboFeng20808360.github.io/literature-review-viz/" target="_blank" style="font-family: monospace;">https://ShuaiboFeng20808360.github.io/literature-review-viz/</a>
     </div>
     <footer>
-        📖 用于 COMP4126 Coursework 3 文献综述 — 多技能人员灵活排班 <br>
-        Figure 3 · 交互式文献可视化分类 · 托管于 GitHub Pages | 包含全部 10 篇文献及 DOI
+        📖 For COMP4126 Coursework 3 — Literature Review on Multi‑skilled Flexible Shift Scheduling <br>
+        Figure 3 · Interactive literature visualisation · Hosted on GitHub Pages | All 10 papers with DOIs
     </footer>
 </div>
 </body>
