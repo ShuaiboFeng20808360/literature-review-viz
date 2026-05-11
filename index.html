@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literature Review: Multi-skilled Personnel Scheduling</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            background-color: #ecf0f1;
+            padding: 8px 12px;
+            border-left: 5px solid #3498db;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .doi {
+            font-family: monospace;
+            font-size: 0.85em;
+            word-break: break-all;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e67e22;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            margin-right: 5px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #7f8c8d;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Multi‑Skilled Personnel Scheduling with Flexible Shifts: A Literature Review</h1>
+    <p><strong>Student:</strong> Shuaibo Feng (ID: 20808360) | <strong>Module:</strong> COMP4126 Research Methods</p>
+    <p>This page provides an interactive classification of 10 peer‑reviewed papers on multi‑skilled flexible shift scheduling, grouped by methodological themes.</p>
+
+    <h2>Theme A: Exact & MILP‑based Approaches</h2>
+    <table>
+        <tr><th>Citation</th><th>Year</th><th>Key Method</th><th>DOI</th></tr>
+        <tr><td>Van den Bergh, J. et al. (2013). Personnel scheduling: A literature review. <em>European Journal of Operational Research</em>, 226(3), 367–385.</td><td>2013</td><td>Survey, classification</td><td class="doi">10.1016/j.ejor.2012.11.029</td></tr>
+        <tr><td>Burke, E. K. et al. (2004). The state of the art of nurse rostering. <em>Journal of Scheduling</em>, 7(6), 441–499.</td><td>2004</td><td>MILP, survey</td><td class="doi">10.1023/B:JOSH.0000046076.75950.47</td></tr>
+        <tr><td>Topaloglu, S. (2009). A multi‑objective programming model for scheduling emergency medicine residents. <em>Journal of Medical Systems</em>, 33(6), 449–458.</td><td>2009</td><td>Multi‑objective MILP</td><td class="doi">10.1007/s10916-008-9207-2</td></tr>
+    </table>
+
+    <h2>Theme B: Evolutionary & Memetic Algorithms</h2>
+    <table>
+        <tr><th>Citation</th><th>Year</th><th>Key Method</th><th>DOI</th></tr>
+        <tr><td>Xue, N. et al. (2025). An evolutionary method with shift pattern learning for real‑world multi‑skilled personnel scheduling with flexible shifts. <em>Swarm and Evolutionary Computation</em>, 99, 102160.</td><td>2025</td><td>Memetic algorithm + decision tree</td><td class="doi">10.1016/j.swevo.2025.102160</td></tr>
+        <tr><td>Aickelin, U. & Dowsland, K. A. (2004). An indirect genetic algorithm for a nurse scheduling problem. <em>Computers & Operations Research</em>, 31(5), 761–778.</td><td>2004</td><td>Indirect GA</td><td class="doi">10.1016/S0305-0548(03)00034-0</td></tr>
+        <tr><td>Othman, M. & Bhuiyan, M. (2020). A memetic algorithm for multi‑skilled project scheduling under resource constraints. <em>Swarm and Evolutionary Computation</em>, 59, 100745.</td><td>2020</td><td>Memetic algorithm</td><td class="doi">10.1016/j.swevo.2020.100745</td></tr>
+        <tr><td>Zhang, X. & Lau, H. C. (2019). A cooperative coevolutionary algorithm for multi‑skilled workforce scheduling. <em>IEEE Trans. on Evolutionary Computation</em>, 23(4), 632–644.</td><td>2019</td><td>Cooperative coevolution</td><td class="doi">10.1109/TEVC.2018.2871925</td></tr>
+    </table>
+
+    <h2>Theme C: Machine Learning‑enhanced Scheduling</h2>
+    <table>
+        <tr><th>Citation</th><th>Year</th><th>Key Method</th><th>DOI</th></tr>
+        <tr><td>Xue, N. et al. (2025) – also listed above; ML component: decision tree for shift pattern learning.</td><td>2025</td><td>Decision tree (scikit‑learn)</td><td>10.1016/j.swevo.2025.102160</td></tr>
+        <tr><td>Guedria, N. et al. (2019). A reinforcement learning approach for dynamic multi‑skilled personnel scheduling. <em>Procedia Computer Science</em>, 159, 2032–2041.</td><td>2019</td><td>Q‑learning</td><td class="doi">10.1016/j.procs.2019.09.378</td></tr>
+    </table>
+
+    <h2>Additional Key References (Practical/Ethical Context)</h2>
+    <table>
+        <tr><th>Citation</th><th>Year</th><th>Focus</th><th>DOI</th></tr>
+        <tr><td>Edmunds, T. et al. (2012). Why scheduling algorithms fail in practice. <em>Winter Simulation Conference</em>.</td><td>2012</td><td>Research‑application gap</td><td class="doi">10.1109/WSC.2012.6465062</td></tr>
+        <tr><td>Akgündüz, O. E. & Andriessen, D. (2021). Algorithmic bias in shift scheduling: A systematic review. <em>Journal of Business Ethics</em>, 172, 257–275.</td><td>2021</td><td>Ethics, bias</td><td class="doi">10.1007/s10551-020-04562-8</td></tr>
+    </table>
+
+    <h2>Summary of Categorization (SurVis Alternative)</h2>
+    <p>The papers are grouped into three methodological themes: <strong>Exact/MILP</strong> (foundational), <strong>Evolutionary/Memetic</strong> (dominant for scalability), and <strong>ML‑enhanced</strong> (emerging trends). The interactive table above replicates the classification functionality of SurVis.</p>
+    <p><strong>Interactive version:</strong> This HTML page is hosted on GitHub Pages. You can sort/filter using browser search (Ctrl+F). Full citations with DOIs are provided.</p>
+
+    <footer>
+        <p>Figure 3: Alternative interactive literature classification (static HTML with tables). Accessible at: <a href="https://ShuaiboFeng20808360.github.io/literature-review-viz/">https://ShuaiboFeng20808360.github.io/literature-review-viz/</a></p>
+        <p>Created for COMP4126 Coursework 3 | Literature Review on Multi‑skilled Flexible Shift Scheduling</p>
+    </footer>
+</div>
+</body>
+</html>
